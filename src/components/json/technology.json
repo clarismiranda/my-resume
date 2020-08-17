@@ -1,0 +1,110 @@
+[
+    {
+        "title": "C++",
+        "description": "pl",
+        "years": 4,
+        "lang": "EN"
+    },
+    {
+        "title": "JavaScript",
+        "description": "pl",
+        "years": 3,
+        "lang": "EN"
+    },
+    {
+        "title": "PHP",
+        "description": "pl",
+        "years": 3,
+        "lang": "EN"
+    },
+    {
+        "title": "Python",
+        "description": "pl",
+        "years": 3,
+        "lang": "EN"
+    },
+    {
+        "title": "SQL",
+        "description": "pl",
+        "years": 3,
+        "lang": "EN"
+    },
+    {
+        "title": "Go",
+        "description": "pl",
+        "years": 1,
+        "lang": "EN"
+    },
+    {
+        "title": "Java",
+        "description": "pl",
+        "years": 1,
+        "lang": "EN"
+    },
+    {
+        "title": "Swift",
+        "description": "pl",
+        "years": 1,
+        "lang": "EN"
+    },
+    {
+        "title": "HTML",
+        "description": "sk",
+        "lang": "EN"
+    },
+    {
+        "title": "CSS",
+        "description": "sk",
+        "lang": "EN"
+    },
+    {
+        "title": "Bootstrap",
+        "description": "sk",
+        "lang": "EN"
+    },
+    {
+        "title": "JQuery",
+        "description": "sk",
+        "lang": "EN"
+    },
+    {
+        "title": "Vue.js",
+        "description": "sk",
+        "lang": "EN"
+    },
+    {
+        "title": "Node.js",
+        "description": "sk",
+        "lang": "EN"
+    },
+    {
+        "title": "Laravel",
+        "description": "sk",
+        "lang": "EN"
+    },
+    {
+        "title": "Scipy",
+        "description": "sk",
+        "lang": "EN"
+    },
+    {
+        "title": "Git",
+        "description": "sk",
+        "lang": "EN"
+    },
+    {
+        "title": "Docker",
+        "description": "sk",
+        "lang": "EN"
+    },
+    {
+        "title": "Unix/Bash",
+        "description": "sk",
+        "lang": "EN"
+    },
+    {
+        "title": "Unity3D",
+        "description": "sk",
+        "lang": "EN"
+    }
+]

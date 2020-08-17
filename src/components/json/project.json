@@ -1,0 +1,270 @@
+[
+	{
+		"section": "Work Experience",
+		"lang": "EN",
+		"items": [{
+			"key": "p1",
+			"title": "Developer Programs Engineer Intern",
+			"organization": "Google",
+			"description": "Building a metrics collection pipeline to study the performance of GCP client libraries across 7 languages. Responsible for designing the end-to-end pipeline and much of the implementation. Built the metrics engine in Go, which communicates to gRPC wrappers around the client libraries to provide a language-agnostic interface. This allows for easy addition of new targets to the benchmarking pipeline as well as a single metrics engine used for multiple languages. The pipeline detects regressions using statistical analyzers and displays results in a time-series charts.",
+			"period": "Summer 2019",
+			"link": "",
+			"technologies": ["Go", "Google Cloud", "gRPC", "Git", "Docker"]
+		},
+		{
+			"key": "p2",
+			"title": "Student Technology Assistant",
+			"organization": "University of Texas at Austin",
+			"description": "Worked on the Liberal Arts Instructional Technology Services department. Helped to create a template for WordPress administration sites that uses Vue.js single page routing. This way, future sites on UT Austin departments can reutilize previous Vue components, as well as practice one-time rendering. This update helped to improve websites performance by preventing the page to reload.",
+			"period": "Spring 2019",
+			"link": "https://sta.laits.utexas.edu/author/am92265/",
+			"technologies": ["Vue.js", "WordPress", "JavaScript"]
+		},
+		{
+			"key": "p12",
+			"title": "Information Security Analyst Intern",
+			"organization": "Tecnologico de Monterrey",
+			"description": "Prevent and detect cyberattacks in the organization. As well, generate reports and analytics of those incidents.",
+			"period": "Fall 2017 - Fall 2018",
+			"link": "",
+			"technologies": ["Unix/Bash"]
+		}]
+	},
+	{
+		"section": "Work Experience",
+		"lang": "ES",
+		"items": [{
+			"key": "p01",
+			"title": "Practicante en Ingeniero de Programas para Desarrolladores",
+			"organization": "Google",
+			"description": "Creación de un mecanismo para recolectar y estudiar métricas de rendimiento entre los 7 lenguajes de programación de las librerías de cliente de Google Cloud. Diseñé de inicio a fin el proceso, y gran parte de la implementación. Construí el mecanismo en Go, el cual se comunica con los envoltorios de gRPC para proveer una interfaz agnóstica del lenguaje de programación. De esta manera, es fácil agregar nuevos lenguajes para un único mecanismo. Este proceso detecta regresiones usando análisis estadístico, y las despliega en gráficas por series de tiempo.",
+			"period": "Verano 2019",
+			"link": "",
+			"technologies": ["Go", "Google Cloud", "gRPC", "Git", "Docker"]
+		},
+		{
+			"key": "p02",
+			"title": "Asistente de Tecnología Estudiantil",
+			"organization": "Universidad de Texas en Austin",
+			"description": "Trabajé en el departamento de Servicios de Tecnología Educativa en Artes. Cree una plantilla para la administración de los sitios en WordPress utilizando Vue.js para aplicaciones de una sola página. Así, próximos sitios en UT Austin pueden reutilizar los componentes de Vue, mejorando el rendimiento y previniendo la página de recargarse.",
+			"period": "Primavera 2019",
+			"link": "https://sta.laits.utexas.edu/author/am92265/",
+			"technologies": ["Vue.js", "WordPress", "JavaScript"]
+		},
+		{
+			"key": "p012",
+			"title": "Practicante en Analista de Seguridad Informática",
+			"organization": "Tecnológico de Monterrey",
+			"description": "Idenifiqué potenciales ataques de seguridad informática dentro de la organización. Generé reportes y analítica de estos incidentes.",
+			"period": "Otoño 2017 - Otoño 2018",
+			"link": "",
+			"technologies": ["Unix/Bash"]
+		}]
+	},
+	{
+		"section": "Major School Projects",
+		"lang": "EN",
+		"items": [{
+			"key": "p0",
+			"title": "Analyzing Fan Avidity for Soccer Prediction",
+			"organization": "Tec de Monterrey: Thesis Proposal",
+			"description": "Progress: OSS Client Library to API-Football for gathering fixtures' and teams' statistics. Initial trainning on ML models for multiple leagues such as: MLS, LigaMX, SerieA, Premier League and LaLiga.",
+			"period": "Spring - Summer 2020",
+			"link": "https://github.com/clarismiranda/apifootballpy/blob/master/proposal/Analyzing_Fan_Avidity.pdf",
+			"technologies": ["SciPy", "Python", "API-Football", "Twitter's StandardSearch API"]
+		},{
+			"key": "p3",
+			"title": "Mostla Inventory",
+			"organization": "Tec de Monterrey: Introduction to Professional Development",
+			"description": "Developed a website that helps Tec de Monterrey administrators keep track of the leading technologies they acquire such as: VR glasses, drones, and more. Worked with a team to build a booking system across the country to let Tec’s former students and staff get to use emerging technologies. The website connects to Google’s Auth Api for log in through a Gmail account, the front-end applies JQuery and Bootstrap and the back end was developed with Laravel.",
+			"period": "Fall 2019",
+			"link": "",
+			"technologies": ["HTML", "CSS", "JQuery", "Bootstrap", "Laravel", "Google's Auth", "JavaScript", "PHP"]
+		},
+		{
+			"key": "p4",
+			"title": "Fake Artists",
+			"organization": "UT Austin: Machine Learning in Text Analysis",
+			"description": "Built a data processing pipeline in order to create new lyrics from a specific artist. From Kaggle’s 380,000+ lyrics dataset, three models were trained. A Recurrent Neural Network predicted each of the words of several songs of a specific artist. This unsupervised task was evaluated by two other models, a genre classifier and artist classifier. For this team project, I trained the multilabel genre classifier by vectorizing the lyrics with TF-IDF to get weights reflecting the word relevance. Additionally, I created a voting classifier with a pre-trained logistic regression model for each of the genres, this due to a class imbalance in the dataset.",
+			"period": "Spring 2019",
+			"link": "",
+			"technologies": ["Machine Learning", "Python", "SciPy"]
+		},
+		{
+			"key": "p5",
+			"title": "Remittances World Bank Database Analysis",
+			"organization": "UT Austin: Introduction to Data Mining",
+			"description": "Using Darwin SDK from SparkCognition and The World Bank Remittances Prices database, this team project aimed to predict the wire fee features from money transfers between countries. We used Scikit-learn for feature selection and Darwin SDK to perform some logistic regressions.",
+			"period": "Spring 2019",
+			"link": "",
+			"technologies": ["Machine Learning", "Python", "SciPy", "Darwin SDK"]
+		},
+		{
+			"key": "p6",
+			"title": "MoviSAT",
+			"organization": "Tec de Monterrey: Web Applications Development",
+			"description": "Developed an internal site for Mexico’s taxes public entity known as SAT. This application helps to register the operations that are derived from illegal purchases of foreign merchandise. Having a web application has reduced misspelling, consolidated merchandise categories, created analytics for the organization and automatized reports generation.",
+			"period": "Fall 2018",
+			"link": "",
+			"technologies": ["HTML", "CSS", "JQuery", "Bootstrap", "PHP", "MySQL", "JavaScript"]
+		},
+		{
+			"key": "p10",
+			"title": "Mexican Sign Language Mobile Application",
+			"organization": "Tec de Monterrey: IOS Application for Mobile Application Development",
+			"description": "Worked on an application with the purpose of teaching sign language by designing different games.",
+			"period": "Spring 2018",
+			"link": "https://apps.apple.com/mx/app/itc-mty-ensenas/id1389930361",
+			"technologies": ["Swift"],
+			"lang": "EN"
+		}
+		]
+	},
+	{
+		"section": "Major School Projects",
+		"lang": "ES",
+		"items": [{
+			"key": "p00",
+			"title": "Analizando Anhelos de Fans para Predicción de Soccer",
+			"organization": "Tec de Monterrey: Propuesta de Tesis",
+			"description": "Progreso: Desarrollé una Librería de Cliente de código abierto para API-Football, esto facilita la obtención de estadísticas por equipo y partidos. Entrené inicialmente algoritmos de aprendizaje automático  para múltiples ligas como: MLS, LigaMX, SerieA, Liga Premier y LaLiga.",
+			"period": "Primavera - Verano 2020",
+			"link": "https://github.com/clarismiranda/apifootballpy/blob/master/proposal/Analyzing_Fan_Avidity.pdf",
+			"technologies": ["SciPy", "Python", "API-Football", "Twitter's StandardSearch API"]
+		},{
+			"key": "p03",
+			"title": "Mostla Inventarios",
+			"organization": "Tec de Monterrey: Proyecto Integrador",
+			"description": "Desarrollé un sitio que ayuda a los administradores del departamento Mostla a inventariar las tecnologías que adquieren: como lentes de realidad virtual, drones, etc. Trabajé en equipo para construir un sistema de reservaciones de estas tecnologías emergentes para los estudiantes del Tec y su personal a nivel Nacional. La página utiliza Google’s Auth Api para inicio de sesión con cuentas de Gmail, en front-end se aplica JQuery y Bootsrap y el back-end utiliza como framework Laravel.",
+			"period": "Otoño 2019",
+			"link": "",
+			"technologies": ["HTML", "CSS", "JQuery", "Bootstrap", "Laravel", "Google's Auth", "JavaScript", "PHP"]
+		},
+		{
+			"key": "p04",
+			"title": "Fake Artists",
+			"organization": "UT Austin: Aprendizaje Automático en Análisis de Texto",
+			"description": "Construcción de un mecanismo para crear nuevas letras musicales de un respectivo artista. Se entrenaron tres modelos con el conjunto de 380,000+ letras de Kaggle. Una Red Neuronal Recurrente predijo cada palabra, y este aprendizaje no supervisado fue evaluado por un clasificador de artista y otro de género musical. Entrené el clasificador para el género por medio del vector TF-IDF , así se obtuvieron los pesos de las palabras más relevantes. Adicionalmente, se creó un clasificador en base a voto con un modelo de regresión logística para cada género, con el fin de resolver la paridad en el set de datos.",
+			"period": "Primavera 2019",
+			"link": "",
+			"technologies": ["Machine Learning", "Python", "SciPy"]
+		},
+		{
+			"key": "p05",
+			"title": "Análisis de la Base de Datos de Remesas del Banco Mundial",
+			"organization": "UT Austin: Introducción a la Minería de Datos",
+			"description": "Predicción de comisión de transferencias internacionales entre países. Para seleccionar las características más importantes se utilizó Scikit-learn, mientras que el modelo de regresión logística fue entrenado con Darwin SDK de Spark Cognition en la base del datos del Precios de Remesas del Banco Mundial.",
+			"period": "Primavera 2019",
+			"link": "",
+			"technologies": ["Machine Learning", "Python", "SciPy", "Darwin SDK"]
+		},
+		{
+			"key": "p06",
+			"title": "MoviSAT",
+			"organization": "Tec de Monterrey: Desarrollo de Aplicaciones Web",
+			"description": "Desarrollé un sitio interno para la dependencia de gobierno SAT. Esta aplicación sirve para registrar operaciones que se derivan de compras de contrabando. Tener una aplicación web ha reducido los errores de captura, agrupado nuevas categorías de mercancía, creado analítica para la organización y automatizado la generación de reportes.",
+			"period": "Otoño 2018",
+			"link": "",
+			"technologies": ["HTML", "CSS", "JQuery", "Bootstrap", "PHP", "MySQL", "JavaScript"]
+		},
+		{
+			"key": "p010",
+			"title": "Aplicación Móvil para Enseñar Lenguaje de Señas Mexicano",
+			"organization": "Tec de Monterrey: Desarrollo de Aplicaciones Móviles",
+			"description": "Trabajé en una aplicación con el propósito de enseñar lenguaje de señas mediante juegos.",
+			"period": "Primavera 2018",
+			"link": "https://apps.apple.com/mx/app/itc-mty-ensenas/id1389930361",
+			"technologies": ["Swift"],
+			"lang": "EN"
+		}
+		]
+	},
+	{
+		"section": "Awards and Leadership",
+		"lang": "EN",
+		"items": [{
+			"key": "p7",
+			"title": "Challenge: Computer Vision and Artificial Intelligence",
+			"organization": "Accenture",
+			"description": "Built an intelligent parking system that authorizes vehicle entrance by matching employees’ faces using face recognition library with OpenCV, as well, recognizing a car’s plate with YOLO object detection, once a car was detected we used AWS rekognition service to get the plate’s text and AWS s3 to store the data. This information was retrieved with Next.js to serve a Node.js server and later, on render an interface using React.",
+			"period": "Fall 2019",
+			"link": "",
+			"technologies": ["OpenCV", "Amazon Web Services", "Next.js", "Node.js", "React", "Python", "JavaScript"]
+		},
+		{
+			"key": "p8",
+			"title": "Challenge: Brewery Sales Prediction",
+			"organization": "JDA Software",
+			"description": "2nd place in HackMty 2019. Using a random forest model, we predicted the sales for the next three months in a brewery. The resulting output was served via Flask to our Vue.js UI.",
+			"period": "Fall 2019",
+			"link": "",
+			"technologies": ["Flask", "Vue.js", "SciPy", "Python", "JavaScript"]
+		},
+		{
+			"key": "p9",
+			"title": "FunGro",
+			"organization": "Tec de Monterrey",
+			"description": "3rd place in Conexion Tec. Built a native iOS application in Swift to practice organic chemistry.",
+			"period": "Fall 2018",
+			"link": "",
+			"technologies": ["Swift"]
+		}]
+	},
+	{
+		"section": "Awards and Leadership",
+		"lang": "ES",
+		"items": [{
+			"key": "p07",
+			"title": "Reto: Visión Computarizada e Inteligencia Artificial",
+			"organization": "Accenture",
+			"description": "Construcción de un sistema de estacionamiento inteligente. Consistió en autorizar la entrada del vehículo al reconocer la cara del empleado, esto al utilizar la librería de reconocimiento de cara de OpenCV,  e identificar el carro del empleado y su placa utilizando YOLO para la detección de objetos. Una vez que se detectaba la placa se aplicó el servicio de rekognition de AWS para obtener el texto, y luego guardarlo con AWS s3. Se creó una interfaz web con React que utilizaba Next.js para obtener los datos de AWS y servirlos a Node.js.",
+			"period": "Otoño 2019",
+			"link": "",
+			"technologies": ["OpenCV", "Amazon Web Services", "Next.js", "Node.js", "React", "Python", "JavaScript"]
+		},
+		{
+			"key": "p08",
+			"title": "Reto: Predicción de Ventas de una Cervecería",
+			"organization": "JDA Software",
+			"description": "Utilizando un modelo de tipo Random Forest, el equipo predijo las ventas en tres meses de una cervecería. El resultado fue servido a través de Flask a una interfaz de usuario creada con Vue.js.",
+			"period": "Otoño 2019",
+			"link": "",
+			"technologies": ["Flask", "Vue.js", "SciPy", "Python", "JavaScript"]
+		},
+		{
+			"key": "p09",
+			"title": "FunGro",
+			"organization": "Tec de Monterrey",
+			"description": "3er lugar en Conexión Tec. Construcción de una aplicación iOS nativa en Swift con el fin de practicar química orgánica.",
+			"period": "Otoño 2018",
+			"link": "",
+			"technologies": ["Swift"]
+		}]
+	},
+	{
+		"section": "Volunteer Experience",
+		"lang": "EN",
+		"items": [{
+			"key": "p11",
+			"title": "Teaching Assistant",
+			"organization": "Patrones Hermosos",
+			"description": "Introduced computer science and algorithmic thinking to girls in middle school and high school and created coding exercises during a two-week workshop provided by MIT and Tec de Monterrey.",
+			"period": "Summer 2017",
+			"link": "https://www.patroneshermososmexico.org/",
+			"technologies": ["HTML", "CSS", "JavaScript"]
+		}]
+	},
+	{
+		"section": "Volunteer Experience",
+		"lang": "ES",
+		"items": [{
+			"key": "p011",
+			"title": "Profesor Asistente",
+			"organization": "Patrones Hermosos",
+			"description": "Creé ejercicios de programación en un taller de dos semanas con el objetivo de introducir las ciencias de la computación y el pensamiento algorítmico a alumnas de preparatoria y secundaria, con el fin de reducir la brecha de género en el campo. Este taller fue organizado por el Tec de Monterrey y el Instituto Tecnológico de Massachussets.",
+			"period": "Verano 2017",
+			"link": "https://www.patroneshermososmexico.org/",
+			"technologies": ["HTML", "CSS", "JavaScript"]
+		}]
+	}
+]

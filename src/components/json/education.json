@@ -1,0 +1,62 @@
+[
+    {
+        "key": "e1",
+        "school": "Tecnologico de Monterrey, Campus Monterrey",
+        "degree": "Master of Science in Computer Science",
+        "average": "92/100",
+        "start": "02/20",
+        "end": "12/21",
+        "description": "Thesis: Predicting matches scores with a model that reinforces football statistics by considering factors outside the field such as: polarity and fan engagement from Social Networks.",
+        "lang": "EN"
+    },
+    {
+        "key": "e2",
+        "school": "Tecnologico de Monterrey, Campus Monterrey",
+        "degree": "Bachelor of Science in Computer Science and Technology",
+        "average": "95/100",
+        "start": "08/15",
+        "end": "12/19",
+        "description": "Honorable Mention in Excellence",
+        "lang": "EN"
+    },
+    {
+        "key": "e3",
+        "school": "University of Texas at Austin",
+        "degree": "Bachelor of Science in Computer Science and Technology",
+        "average": "3.75/4.0",
+        "start": "01/19",
+        "end": "05/19",
+        "description": "Courses: CS363D Introduction to Data Mining, LIN373 ML Text Analysis, INF350C Design and Research Fundamentals (HCI/UX), ADV305S Integrated Communication for Sports",
+        "lang": "EN"
+    },
+    {
+        "key": "e4",
+        "school": "Tecnológico de Monterrey, Campus Monterrey",
+        "degree": "Maestría en Ciencias Computacionales",
+        "average": "92/100",
+        "start": "02/20",
+        "end": "12/21",
+        "description": "Tesis: Predicción de resultados de fútbol con un modelo basado en estadísticas y factores fuera del campo como: polaridad y compromiso de Fans adquirido en Redes Sociales.",
+        "lang": "ES"
+    },
+    {
+        "key": "e5",
+        "school": "Tecnológico de Monterrey, Campus Monterrey",
+        "degree": "Ingeniería en Tecnologías Computacionales",
+        "average": "95/100",
+        "start": "08/15",
+        "end": "12/19",
+        "description": "Mención Honorífica de Excelencia",
+        "lang": "ES"
+    },
+    {
+        "key": "e6",
+        "school": "Universidad de Texas en Austin",
+        "degree": "Ingeniería en Tecnologías Computacionales",
+        "average": "3.75/4.0",
+        "start": "01/19",
+        "end": "05/19",
+        "description": "Cursos: CS363D Introducción a la Minería de Datos, LIN373 Aprendizaje Automático en Análisis de Texto, INF350C Fundamentos de Diseño e Investigación (HCI/UX), ADV305S Comunicación Integrada en Deportes",
+        "lang": "ES"
+    }
+]
