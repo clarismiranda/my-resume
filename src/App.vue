@@ -2,10 +2,10 @@
   <div id="app">
     <div class="container">
       <div class="row">
-        <div class="col-4">
+        <div class="col-12 col-md-4">
           <SideBar></SideBar>
         </div>
-        <div class="col-8">
+        <div id="view" class="col-12 col-md-8">
           <router-view></router-view>
         </div>
       </div>
@@ -25,10 +25,10 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-}
+  #app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+  }
 </style>

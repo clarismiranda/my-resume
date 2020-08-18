@@ -17,7 +17,14 @@ const router = new VueRouter({
 			{ path: '/MajorSchoolProjects/:lang', name: "Major School Projects", component: Project, props: true},
 			{ path: '/AwardsAndLeadership/:lang', name: "Awards and Leadership", component: Project, props: true},
 			{ path: '/VolunteerExperience/:lang', name: "Volunteer Experience", component: Project, props:true}
-		]
+		],
+	scrollBehavior: function (to) {
+		if (to.hash) {
+			return {
+				selector: to.hash
+			}
+		}
+	},
 })
 
 new Vue({

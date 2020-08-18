@@ -34,18 +34,18 @@
 			</ul>
 		</div>
 		<ul class="nav nav-tabs flex-column mb-2" v-if="current_lang === 'EN'">
-			<li class="nav-item"><router-link class="nav-link" :to="{ name: 'Education', params: { lang: 'EN' }}">Education</router-link></li>
-			<li class="nav-item"><router-link class="nav-link" :to="{ name: 'Work Experience', params: { lang: 'EN' }}">Work Experience</router-link></li>
-			<li class="nav-item"><router-link class="nav-link" :to="{ name: 'Major School Projects', params: { lang: 'EN' }}">Major School Projects</router-link></li>
-			<li class="nav-item"><router-link class="nav-link" :to="{ name: 'Awards and Leadership', params: { lang: 'EN' }}">Awards and Leadership</router-link></li>
-			<li class="nav-item"><router-link class="nav-link" :to="{ name: 'Volunteer Experience', params: { lang: 'EN' }}">Volunteer Experience</router-link></li>
+			<li class="nav-item"><router-link class="nav-link" :to="{ name: 'Education', hash: '#view', params: { lang: 'EN' }}">Education</router-link></li>
+			<li class="nav-item"><router-link class="nav-link" :to="{ name: 'Work Experience', hash: '#view', params: { lang: 'EN' }}">Work Experience</router-link></li>
+			<li class="nav-item"><router-link class="nav-link" :to="{ name: 'Major School Projects', hash: '#view', params: { lang: 'EN' }}">Major School Projects</router-link></li>
+			<li class="nav-item"><router-link class="nav-link" :to="{ name: 'Awards and Leadership', hash: '#view', params: { lang: 'EN' }}">Awards and Leadership</router-link></li>
+			<li class="nav-item"><router-link class="nav-link" :to="{ name: 'Volunteer Experience', hash: '#view', params: { lang: 'EN' }}">Volunteer Experience</router-link></li>
 		</ul>
 		<ul class="nav nav-tabs flex-column mb-2" v-else>
-			<li class="nav-item active"><router-link class="nav-link" :to="{ name: 'Education', params: { lang: 'ES' }}">Educación</router-link></li>
-			<li class="nav-item"><router-link class="nav-link" :to="{ name: 'Work Experience', params: { lang: 'ES' }}">Experiencia Profesional</router-link></li>
-			<li class="nav-item"><router-link class="nav-link" :to="{ name: 'Major School Projects', params: { lang: 'ES' }}">Proyectos Académicos</router-link></li>
-			<li class="nav-item"><router-link class="nav-link" :to="{ name: 'Awards and Leadership', params: { lang: 'ES' }}">Logros</router-link></li>
-			<li class="nav-item"><router-link class="nav-link" :to="{ name: 'Volunteer Experience', params: { lang: 'ES' }}">Proyectos Sociales</router-link></li>
+			<li class="nav-item active"><router-link class="nav-link" :to="{ name: 'Education', hash: '#view', params: { lang: 'ES' }}">Educación</router-link></li>
+			<li class="nav-item"><router-link class="nav-link" :to="{ name: 'Work Experience', hash: '#view', params: { lang: 'ES' }}">Experiencia Profesional</router-link></li>
+			<li class="nav-item"><router-link class="nav-link" :to="{ name: 'Major School Projects', hash: '#view', params: { lang: 'ES' }}">Proyectos Académicos</router-link></li>
+			<li class="nav-item"><router-link class="nav-link" :to="{ name: 'Awards and Leadership', hash: '#view', params: { lang: 'ES' }}">Logros</router-link></li>
+			<li class="nav-item"><router-link class="nav-link" :to="{ name: 'Volunteer Experience', hash: '#view', params: { lang: 'ES' }}">Proyectos Sociales</router-link></li>
 		</ul>
 		<p class="h5" v-if="current_lang === 'EN'">Programming Languages</p>
 		<p class="h5" v-else>Lenguajes de Programación</p>
