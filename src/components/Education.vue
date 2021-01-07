@@ -1,8 +1,8 @@
 <template>
 	<div>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light rounded justify-content-md-center mb-2">
-			<span class="navbar-brand mb-0 h2" v-if="lang === 'EN'">Education</span>
-			<span class="navbar-brand mb-0 h2" v-else>Educación</span>
+		<nav class="navbar navbar-expand-lg navbar-light bg-info justify-content-md-center mb-2">
+			<span class="navbar-brand mb-0 h2 text-white" v-if="lang === 'EN'">Education</span>
+			<span class="navbar-brand mb-0 h2 text-white" v-else>Educación</span>
 		</nav>
 		<div class="card mb-2" v-for="item in currentItems" :key="item.key">
 			<div class="card-body">

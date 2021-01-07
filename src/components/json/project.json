@@ -68,10 +68,10 @@
 			"key": "p0",
 			"title": "Analyzing Fan Avidity for Soccer Prediction",
 			"organization": "Tec de Monterrey: Thesis Proposal",
-			"description": "Progress: OSS Client Library to API-Football for gathering fixtures' and teams' statistics. Initial trainning on ML models for multiple leagues such as: MLS, LigaMX, SerieA, Premier League and LaLiga.",
-			"period": "Spring - Summer 2020",
-			"link": "https://github.com/clarismiranda/apifootballpy/blob/master/proposal/Analyzing_Fan_Avidity.pdf",
-			"technologies": ["SciPy", "Python", "API-Football", "Twitter's StandardSearch API"]
+			"description": "Progress: OSS Client Library to API-Football for gathering fixtures' and teams' statistics. Initial trainning on ML models for multiple leagues such as: MLS, LigaMX, SerieA, Premier League and LaLiga. Prediction based on Sentiment Analysis through a Graph Theory approach on Premier League's tweets.",
+			"period": "Spring 2020 - present",
+			"link": "https://github.com/clarismiranda?tab=projects",
+			"technologies": ["SciPy", "Networkx", "Python", "API-Football", "Twitter's StandardSearch API"]
 		},{
 			"key": "p3",
 			"title": "Mostla Inventory",
@@ -127,10 +127,10 @@
 			"key": "p00",
 			"title": "Analizando Anhelos de Fans para Predicción de Soccer",
 			"organization": "Tec de Monterrey: Propuesta de Tesis",
-			"description": "Progreso: Desarrollé una Librería de Cliente de código abierto para API-Football, esto facilita la obtención de estadísticas por equipo y partidos. Entrené inicialmente algoritmos de aprendizaje automático  para múltiples ligas como: MLS, LigaMX, SerieA, Liga Premier y LaLiga.",
-			"period": "Primavera - Verano 2020",
-			"link": "https://github.com/clarismiranda/apifootballpy/blob/master/proposal/Analyzing_Fan_Avidity.pdf",
-			"technologies": ["SciPy", "Python", "API-Football", "Twitter's StandardSearch API"]
+			"description": "Progreso: Desarrollé una Librería de Cliente de código abierto para API-Football, esto facilita la obtención de estadísticas por equipo y partidos. Entrené inicialmente algoritmos de aprendizaje automático  para múltiples ligas como: MLS, LigaMX, SerieA, Liga Premier y LaLiga. Predicción basada en Análisis de Sentimiento desde una perspectiva de Teoría de Grafos en tweets de la Liga Premier.",
+			"period": "Primavera 2020 - presente",
+			"link": "https://github.com/clarismiranda?tab=projects",
+			"technologies": ["SciPy", "Networkx", "Python", "API-Football", "Twitter's StandardSearch API"]
 		},{
 			"key": "p03",
 			"title": "Mostla Inventarios",
@@ -183,6 +183,15 @@
 		"section": "Awards and Leadership",
 		"lang": "EN",
 		"items": [{
+			"key": "p12",
+			"title": "Challenge: The Changing Face of ETL",
+			"organization": "Confluent, Inc.",
+			"description": "1st place in Hack Off v3. Built a pipeline using Kafka to stream Twitter's Standard Search API, then performs Sentiment Analysis and Topic Modeling on tweets, and displays the analysis in QuickSight.",
+			"period": "Fall 2020",
+			"link": "",
+			"technologies": ["Kafka", "ksqlDB", "Docker", "Amazon Web Services", "Python", "Twitter's StandardSearch API"]
+		},
+		{
 			"key": "p7",
 			"title": "Challenge: Computer Vision and Artificial Intelligence",
 			"organization": "Accenture",
@@ -214,6 +223,15 @@
 		"section": "Awards and Leadership",
 		"lang": "ES",
 		"items": [{
+			"key": "p012",
+			"title": "Reto: La cara cambiante de ETL",
+			"organization": "Confluent, Inc.",
+			"description": "1er lugar en Hack Off v3. Creación de un sistema que recupera tweets en tiempo real usando Kafka, analiza su sentimiento y modela el tópico, para publicar los resultados en Amazon QuickSight.",
+			"period": "Otoño 2020",
+			"link": "",
+			"technologies": ["Kafka", "ksqlDB", "Docker", "Amazon Web Services", "Python", "Twitter's StandardSearch API"]
+		},
+		{
 			"key": "p07",
 			"title": "Reto: Visión Computarizada e Inteligencia Artificial",
 			"organization": "Accenture",
@@ -226,7 +244,7 @@
 			"key": "p08",
 			"title": "Reto: Predicción de Ventas de una Cervecería",
 			"organization": "JDA Software",
-			"description": "Utilizando un modelo de tipo Random Forest, el equipo predijo las ventas en tres meses de una cervecería. El resultado fue servido a través de Flask a una interfaz de usuario creada con Vue.js.",
+			"description": "2do lugar en HackMty. Utilizando un modelo de tipo Random Forest, el equipo predijo las ventas en tres meses de una cervecería. El resultado fue servido a través de Flask a una interfaz de usuario creada con Vue.js.",
 			"period": "Otoño 2019",
 			"link": "",
 			"technologies": ["Flask", "Vue.js", "SciPy", "Python", "JavaScript"]

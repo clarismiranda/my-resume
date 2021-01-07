@@ -1,8 +1,8 @@
 <template>
 	<div>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light rounded justify-content-md-center mb-2">
-			<span class="navbar-brand mb-0 h2" v-if="lang === 'EN'">{{this.$route.name}}</span>
-			<span class="navbar-brand mb-0 h2" v-else>{{switchLang(this.$route.name)}}</span>
+		<nav class="navbar navbar-expand-lg navbar-light bg-info justify-content-md-center mb-2">
+			<span class="navbar-brand mb-0 h2 text-white" v-if="lang === 'EN'">{{this.$route.name}}</span>
+			<span class="navbar-brand mb-0 h2 text-white" v-else>{{switchLang(this.$route.name)}}</span>
 		</nav>
 		<div class="card mb-2" v-for="item in currentProject.items" :key="item.key">
 			<div class="card-body">
