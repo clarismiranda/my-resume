@@ -9,7 +9,7 @@
 				<h5 class="card-title">{{item.degree}}</h5>
 				<h6 class="card-subtitle mb-2 text-muted">{{item.school}}</h6>
 				<h6 class="card-subtitle mb-2 text-muted">{{item.start}} - {{item.end}}</h6>
-				<p class="card-text">{{item.description}}</p>
+				<p class="card-text" style="white-space: pre-line;">{{item.description}}</p>
 				<p class="card-text"><span v-if="lang === 'EN'">Average: </span> <span v-else>Promedio: </span> {{item.average}}</p>
 			</div>
 		</div>

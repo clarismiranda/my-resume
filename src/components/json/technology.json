@@ -48,6 +48,12 @@
         "lang": "EN"
     },
     {
+        "title": "R",
+        "description": "pl",
+        "years": 1,
+        "lang": "EN"
+    },
+    {
         "title": "HTML",
         "description": "sk",
         "lang": "EN"
@@ -109,6 +115,11 @@
     },
     {
         "title": "Unity3D",
+        "description": "sk",
+        "lang": "EN"
+    },
+    {
+        "title": "Tensorflow",
         "description": "sk",
         "lang": "EN"
     }

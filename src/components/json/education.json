@@ -1,12 +1,22 @@
 [
     {
+        "key": "e0",
+        "school": "The University of Sydney",
+        "degree": "Doctor of Philosophy (Engineering), School of Computer Science",
+        "average": "-",
+        "start": "10/23",
+        "end": "10/26 (Expected)",
+        "description": "Thesis: Computational Linguistics-based Data Visualization Assistant. A text-to-code task for data visualization.",
+        "lang": "EN"
+    },
+    {
         "key": "e1",
         "school": "Tecnologico de Monterrey, Campus Monterrey",
         "degree": "Master of Science in Computer Science",
         "average": "93/100",
         "start": "02/20",
-        "end": "12/21",
-        "description": "Thesis: Predicting matches scores with a model that reinforces football statistics by considering factors outside the field such as: polarity and fan engagement from Social Networks.",
+        "end": "06/22",
+        "description": "Thesis: Analyzing Fan Avidity for Soccer Prediction. Predicting matches' results with a model that reinforces football statistics by considering factors outside the field such as: polarity and fan engagement from Social Networks.",
         "lang": "EN"
     },
     {
@@ -21,26 +31,35 @@
     },
     {
         "key": "e3",
-        "school": "University of Texas at Austin",
+        "school": "The University of Texas at Austin",
         "degree": "Bachelor of Science in Computer Science and Technology",
         "average": "3.75/4.0",
         "start": "01/19",
         "end": "05/19",
-        "description": "Courses: CS363D Introduction to Data Mining, LIN373 ML Text Analysis, INF350C Design and Research Fundamentals (HCI/UX), ADV305S Integrated Communication for Sports",
+        "description":"International Exchange \n Courses: Introduction to Data Mining, Machine Learning in Text Analysis, Design and Research Fundamentals (HCI/UX), Integrated Communication for Sports.",
         "lang": "EN"
-    },
-    {
+    },{
         "key": "e4",
-        "school": "Tecnológico de Monterrey, Campus Monterrey",
-        "degree": "Maestría en Ciencias Computacionales",
-        "average": "93/100",
-        "start": "02/20",
-        "end": "12/21",
-        "description": "Tesis: Predicción de resultados de fútbol con un modelo basado en estadísticas y factores fuera del campo como: polaridad y compromiso de Fans adquirido en Redes Sociales.",
+        "school": "Universidad de Sídney",
+        "degree": "Doctorado (Ingeniería), Escuela de Ciencias Computacionales",
+        "average": "-",
+        "start": "10/23",
+        "end": "10/26 (Esperado)",
+        "description": "Tesis: Asistente de Visualización de Datos basado en lingüística computacional, una tarea de texto a código para la visualización de datos.",
         "lang": "ES"
     },
     {
         "key": "e5",
+        "school": "Tecnológico de Monterrey, Campus Monterrey",
+        "degree": "Maestría en Ciencias Computacionales",
+        "average": "93/100",
+        "start": "02/20",
+        "end": "06/22",
+        "description": "Tesis: Predicción de resultados de fútbol con un modelo basado en estadísticas y factores fuera del campo como: polaridad y compromiso de Fans adquirido en Redes Sociales.",
+        "lang": "ES"
+    },
+    {
+        "key": "e6",
         "school": "Tecnológico de Monterrey, Campus Monterrey",
         "degree": "Ingeniería en Tecnologías Computacionales",
         "average": "95/100",
@@ -50,13 +69,13 @@
         "lang": "ES"
     },
     {
-        "key": "e6",
+        "key": "e7",
         "school": "Universidad de Texas en Austin",
         "degree": "Ingeniería en Tecnologías Computacionales",
         "average": "3.75/4.0",
         "start": "01/19",
         "end": "05/19",
-        "description": "Cursos: CS363D Introducción a la Minería de Datos, LIN373 Aprendizaje Automático en Análisis de Texto, INF350C Fundamentos de Diseño e Investigación (HCI/UX), ADV305S Comunicación Integrada en Deportes",
+        "description": "Intercambio Internacional \n Cursos: Introducción a la Minería de Datos, Aprendizaje Automático en Análisis de Texto, Fundamentos de Diseño e Investigación (HCI/UX), Comunicación Integrada en Deportes.",
         "lang": "ES"
     }
 ]

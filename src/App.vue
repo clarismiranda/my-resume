@@ -15,11 +15,10 @@
 
 <script>
 import SideBar from './components/SideBar.vue'
-
 export default {
   name: 'App',
   components: {
-    'SideBar': SideBar,
+    'SideBar': SideBar
   }
 }
 </script>

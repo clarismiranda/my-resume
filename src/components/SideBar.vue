@@ -19,9 +19,10 @@
 			</ul>
 		</nav>
 		<div class="text-center">
+			<a href="/"><img src="https://media.licdn.com/dms/image/C4E03AQFbA_0C0kBReg/profile-displayphoto-shrink_800_800/0/1561596742851?e=1706140800&v=beta&t=YdbrgKKRPCxTCiUwLA_pekBxCMWewJiawTLiK57xvbc" alt="Profile Portrait" class="rounded-circle" width="150" height="150"/></a>
 			<h1 class="font-weight-bold">Ana Clarissa Miranda Peña</h1>
-			<p v-if="current_lang === 'EN'">Masters Student in Computer Science</p>
-			<p v-else>Estudiante de Maestría en Ciencias Computacionales</p>
+			<p v-if="current_lang === 'EN'">PhD Student in Computer Science</p>
+			<p v-else>Estudiante de Doctorado en Ciencias Computacionales</p>
 		</div>
 		<div class="navbar navbar-expand-lg navbar-light rounded justify-content-center">
 			<ul class="navbar-nav">
@@ -34,21 +35,28 @@
 				<li class="nav-item"><a class="mr-2 text-info" href="https://www.researchgate.net/profile/Ana-Miranda-Pena" target="_blank"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-code-slash" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
 					<path fill-rule="evenodd" d="M1 2.828v9.923c.918-.35 2.107-.692 3.287-.81 1.094-.111 2.278-.039 3.213.492V2.687c-.654-.689-1.782-.886-3.112-.752-1.234.124-2.503.523-3.388.893zm7.5-.141v9.746c.935-.53 2.12-.603 3.213-.493 1.18.12 2.37.461 3.287.811V2.828c-.885-.37-2.154-.769-3.388-.893-1.33-.134-2.458.063-3.112.752zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
 				</svg></a></li>
+				<li class="nav-item"><a class="mr-2 text-info" href="https://www.linkedin.com/in/acmp1/" target="_blank"><svg width="1em" height="1em" viewBox="0 0 24 24" class="bi bi-code-slash" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+					<path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+				</svg></a></li>
 			</ul>
 		</div>
 		<ul class="nav nav-tabs flex-column" v-if="current_lang === 'EN'">
 			<li class="nav-item"><router-link class="nav-link text-info" :to="{ name: 'Education', hash: '#view', params: { lang: 'EN' }}">Education</router-link></li>
 			<li class="nav-item"><router-link class="nav-link text-info" :to="{ name: 'Work Experience', hash: '#view', params: { lang: 'EN' }}">Work Experience</router-link></li>
-			<li class="nav-item"><router-link class="nav-link text-info" :to="{ name: 'Major School Projects', hash: '#view', params: { lang: 'EN' }}">Major School Projects</router-link></li>
+			<li class="nav-item"><router-link class="nav-link text-info" :to="{ name: 'Publications', hash: '#view', params: { lang: 'EN' }}">Publications</router-link></li>
+			<li class="nav-item"><router-link class="nav-link text-info" :to="{ name: 'Conferences', hash: '#view', params: { lang: 'EN' }}">Conferences</router-link></li>
 			<li class="nav-item"><router-link class="nav-link text-info" :to="{ name: 'Awards and Leadership', hash: '#view', params: { lang: 'EN' }}">Awards and Leadership</router-link></li>
-			<li class="nav-item"><router-link class="nav-link text-info" :to="{ name: 'Volunteer Experience', hash: '#view', params: { lang: 'EN' }}">Volunteer Experience</router-link></li>
+			<li class="nav-item"><router-link class="nav-link text-info" :to="{ name: 'Teaching Experience', hash: '#view', params: { lang: 'EN' }}">Teaching Experience</router-link></li>
+			<li class="nav-item"><router-link class="nav-link text-info" :to="{ name: 'Major School Projects', hash: '#view', params: { lang: 'EN' }}">Major School Projects</router-link></li>
 		</ul>
 		<ul class="nav nav-tabs flex-column" v-else>
 			<li class="nav-item active"><router-link class="nav-link text-info" :to="{ name: 'Education', hash: '#view', params: { lang: 'ES' }}">Educación</router-link></li>
 			<li class="nav-item"><router-link class="nav-link text-info" :to="{ name: 'Work Experience', hash: '#view', params: { lang: 'ES' }}">Experiencia Profesional</router-link></li>
-			<li class="nav-item"><router-link class="nav-link text-info" :to="{ name: 'Major School Projects', hash: '#view', params: { lang: 'ES' }}">Proyectos Académicos</router-link></li>
+			<li class="nav-item"><router-link class="nav-link text-info" :to="{ name: 'Publications', hash: '#view', params: { lang: 'ES' }}">Publicaciones</router-link></li>
+			<li class="nav-item"><router-link class="nav-link text-info" :to="{ name: 'Conferences', hash: '#view', params: { lang: 'ES' }}">Conferencias</router-link></li>
 			<li class="nav-item"><router-link class="nav-link text-info" :to="{ name: 'Awards and Leadership', hash: '#view', params: { lang: 'ES' }}">Logros</router-link></li>
-			<li class="nav-item"><router-link class="nav-link text-info" :to="{ name: 'Volunteer Experience', hash: '#view', params: { lang: 'ES' }}">Proyectos Sociales</router-link></li>
+			<li class="nav-item"><router-link class="nav-link text-info" :to="{ name: 'Teaching Experience', hash: '#view', params: { lang: 'ES' }}">Proyectos de Docencia</router-link></li>
+			<li class="nav-item"><router-link class="nav-link text-info" :to="{ name: 'Major School Projects', hash: '#view', params: { lang: 'ES' }}">Proyectos Académicos</router-link></li>
 		</ul>
 		<div class="accordion" id="tech">
 			<div class="card">
@@ -62,7 +70,7 @@
 						</button>
 					</h5>
 				</div>
-			<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#tech">
+			<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#tech">
 				<div class="card-body">
 					<ul class="list-group">
 						<li class="list-group-item d-flex justify-content-between align-items-center" v-for="item in justPl" :key="item.title">
@@ -122,6 +130,7 @@
 			changeLang: function (lang) {
 				this.current_lang = lang;
 				this.$router.replace({ name: this.$route.name, params: { lang: lang} });
+				this.$store.dispatch('setLang', lang);
 			}
 		},
 		computed: {

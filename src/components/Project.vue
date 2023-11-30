@@ -53,8 +53,12 @@
 						return "Proyectos Académicos";
 					case "Awards and Leadership":
 						return "Logros";
-					case "Volunteer Experience":
-						return "Proyectos Sociales";
+					case "Teaching Experience":
+						return "Proyectos de Docencia";
+					case "Publications":
+						return "Publicaciones";
+					case "Conferences":
+						return "Conferencias";
 				}
 			},
 		},

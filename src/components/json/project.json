@@ -3,6 +3,23 @@
 		"section": "Work Experience",
 		"lang": "EN",
 		"items": [{
+			"key": "p100",
+			"title": "Software Engineer Intern",
+			"organization": "Zelus Analytics",
+			"description": "Refactored a data pipeline written in R to ingest data from multiple vendors that resulted in a 4x decrease in processing time. Conducted exploratory data analysis and developed visualizations used to validate development and implementation of new metrics. Translate exploratory analysis done by others into production quality code and integrate it into our data pipeline. Improved visual design of R Shiny application used by all our partner teams to discover and evaluate players. Incorporated new metrics and automatized post-match report on game completion.",
+			"period": "Fall 2021 - Fall 2022",
+			"link": "",
+			"technologies": ["R", "Shiny", "ggplot", "PostgreSQL", "tidyr"]
+		},
+		{
+			"key": "p101",
+			"title": "Research Student Intern",
+			"organization": "University of Alberta",
+			"description": "Collaborated with the Social Networks Lab and produced a Literature Review on Aspect‑Based Sentiment Analysis (ABSA) and Comparative Preference Classification (CPC).",
+			"period": "Summer 2022",
+			"link": "",
+			"technologies": ["Pytorch", "CUDA"]
+		},{
 			"key": "p1",
 			"title": "Developer Programs Engineer Intern",
 			"organization": "Google",
@@ -34,6 +51,25 @@
 		"section": "Work Experience",
 		"lang": "ES",
 		"items": [{
+			"key": "p100",
+			"title": "Practicante en Ingeniería de Software",
+			"organization": "Zelus Analytics",
+
+			"description": "Mejoré 4x el tiempo de procesamiento de la infraestructura de ingesta de datos en R de mútliples fuentes. Conduje análisis de datos exploratorios y visualización para validar el desarrollo e implementación de nuevas métricas. Traduje el análisis exploratorio de otros a código de nivel de producción para integrarlo a nuestro procesamiento de datos. Mejoré el la interfaz de la aplicación de R Shiny que es usada por todos los equipos asociados y así descubrir y evaluar jugadores. Automaticé e incorporé nuevas métricas a nuestro reporte previo al termino del partido.",
+			"period": "Otoño 2021 - Otoño 2022",
+			"link": "",
+			"technologies": ["R", "Shiny", "ggplot", "PostgreSQL", "tidyr"]
+		},
+		{
+			"key": "p101",
+			"title": "Practicante de Investigación",
+			"organization": "Universidad de Alberta",
+			"description": "Colaboré con el Laboratorio de Redes Sociales y realicé  un Marco Teórico sobre Aspect‑Based Sentiment Analysis (ABSA) y Comparative Preference Classification (CPC).",
+			"period": "Verano 2022",
+			"link": "",
+			"technologies": ["Pytorch", "CUDA"]
+		},
+		{
 			"key": "p01",
 			"title": "Practicante en Ingeniero de Programas para Desarrolladores",
 			"organization": "Google",
@@ -70,7 +106,7 @@
 			"organization": "Tec de Monterrey: Thesis Proposal",
 			"description": "Progress: OSS Client Library to API-Football for gathering fixtures' and teams' statistics. Initial trainning on ML models for multiple leagues such as: MLS, LigaMX, SerieA, Premier League and LaLiga. Prediction based on Sentiment Analysis through a Graph Theory approach on Premier League's tweets.",
 			"period": "Spring 2020 - present",
-			"link": "https://github.com/clarismiranda?tab=projects",
+			"link": "https://github.com/clarismiranda?tab=projects&type=classic",
 			"technologies": ["SciPy", "Networkx", "Python", "API-Football", "Twitter's StandardSearch API"]
 		},{
 			"key": "p3",
@@ -78,7 +114,7 @@
 			"organization": "Tec de Monterrey: Introduction to Professional Development",
 			"description": "Developed a website that helps Tec de Monterrey administrators keep track of the leading technologies they acquire such as: VR glasses, drones, and more. Worked with a team to build a booking system across the country to let Tec’s former students and staff get to use emerging technologies. The website connects to Google’s Auth Api for log in through a Gmail account, the front-end applies JQuery and Bootstrap and the back end was developed with Laravel.",
 			"period": "Fall 2019",
-			"link": "",
+			"link": "https://github.com/ProyectoIntegrador2018/MostlaInventario",
 			"technologies": ["HTML", "CSS", "JQuery", "Bootstrap", "Laravel", "Google's Auth", "JavaScript", "PHP"]
 		},
 		{
@@ -87,7 +123,7 @@
 			"organization": "UT Austin: Machine Learning in Text Analysis",
 			"description": "Built a data processing pipeline in order to create new lyrics from a specific artist. From Kaggle’s 380,000+ lyrics dataset, three models were trained. A Recurrent Neural Network predicted each of the words of several songs of a specific artist. This unsupervised task was evaluated by two other models, a genre classifier and artist classifier. For this team project, I trained the multilabel genre classifier by vectorizing the lyrics with TF-IDF to get weights reflecting the word relevance. Additionally, I created a voting classifier with a pre-trained logistic regression model for each of the genres, this due to a class imbalance in the dataset.",
 			"period": "Spring 2019",
-			"link": "",
+			"link": "https://github.com/clarismiranda/VotingClassifier",
 			"technologies": ["Machine Learning", "Python", "SciPy"]
 		},
 		{
@@ -96,7 +132,7 @@
 			"organization": "UT Austin: Introduction to Data Mining",
 			"description": "Using Darwin SDK from SparkCognition and The World Bank Remittances Prices database, this team project aimed to predict the wire fee features from money transfers between countries. We used Scikit-learn for feature selection and Darwin SDK to perform some logistic regressions.",
 			"period": "Spring 2019",
-			"link": "",
+			"link": "https://github.com/acmp1/darwin-sdk",
 			"technologies": ["Machine Learning", "Python", "SciPy", "Darwin SDK"]
 		},
 		{
@@ -129,7 +165,7 @@
 			"organization": "Tec de Monterrey: Propuesta de Tesis",
 			"description": "Progreso: Desarrollé una Librería de Cliente de código abierto para API-Football, esto facilita la obtención de estadísticas por equipo y partidos. Entrené inicialmente algoritmos de aprendizaje automático  para múltiples ligas como: MLS, LigaMX, SerieA, Liga Premier y LaLiga. Predicción basada en Análisis de Sentimiento desde una perspectiva de Teoría de Grafos en tweets de la Liga Premier.",
 			"period": "Primavera 2020 - presente",
-			"link": "https://github.com/clarismiranda?tab=projects",
+			"link": "https://github.com/clarismiranda?tab=projects&type=classic",
 			"technologies": ["SciPy", "Networkx", "Python", "API-Football", "Twitter's StandardSearch API"]
 		},{
 			"key": "p03",
@@ -137,7 +173,7 @@
 			"organization": "Tec de Monterrey: Proyecto Integrador",
 			"description": "Desarrollé un sitio que ayuda a los administradores del departamento Mostla a inventariar las tecnologías que adquieren: como lentes de realidad virtual, drones, etc. Trabajé en equipo para construir un sistema de reservaciones de estas tecnologías emergentes para los estudiantes del Tec y su personal a nivel Nacional. La página utiliza Google’s Auth Api para inicio de sesión con cuentas de Gmail, en front-end se aplica JQuery y Bootsrap y el back-end utiliza como framework Laravel.",
 			"period": "Otoño 2019",
-			"link": "",
+			"link": "https://github.com/ProyectoIntegrador2018/MostlaInventario",
 			"technologies": ["HTML", "CSS", "JQuery", "Bootstrap", "Laravel", "Google's Auth", "JavaScript", "PHP"]
 		},
 		{
@@ -146,7 +182,7 @@
 			"organization": "UT Austin: Aprendizaje Automático en Análisis de Texto",
 			"description": "Construcción de un mecanismo para crear nuevas letras musicales de un respectivo artista. Se entrenaron tres modelos con el conjunto de 380,000+ letras de Kaggle. Una Red Neuronal Recurrente predijo cada palabra, y este aprendizaje no supervisado fue evaluado por un clasificador de artista y otro de género musical. Entrené el clasificador para el género por medio del vector TF-IDF , así se obtuvieron los pesos de las palabras más relevantes. Adicionalmente, se creó un clasificador en base a voto con un modelo de regresión logística para cada género, con el fin de resolver la paridad en el set de datos.",
 			"period": "Primavera 2019",
-			"link": "",
+			"link": "https://github.com/clarismiranda/VotingClassifier",
 			"technologies": ["Machine Learning", "Python", "SciPy"]
 		},
 		{
@@ -155,7 +191,7 @@
 			"organization": "UT Austin: Introducción a la Minería de Datos",
 			"description": "Predicción de comisión de transferencias internacionales entre países. Para seleccionar las características más importantes se utilizó Scikit-learn, mientras que el modelo de regresión logística fue entrenado con Darwin SDK de Spark Cognition en la base del datos del Precios de Remesas del Banco Mundial.",
 			"period": "Primavera 2019",
-			"link": "",
+			"link": "https://github.com/acmp1/darwin-sdk",
 			"technologies": ["Machine Learning", "Python", "SciPy", "Darwin SDK"]
 		},
 		{
@@ -188,16 +224,16 @@
 			"organization": "Confluent, Inc.",
 			"description": "1st place in Hack Off v3. Built a pipeline using Kafka to stream Twitter's Standard Search API, then performs Sentiment Analysis and Topic Modeling on tweets, and displays the analysis in QuickSight.",
 			"period": "Fall 2020",
-			"link": "",
+			"link": "https://github.com/DRAE-MLP/PreprocessTweet",
 			"technologies": ["Kafka", "ksqlDB", "Docker", "Amazon Web Services", "Python", "Twitter's StandardSearch API"]
 		},
 		{
 			"key": "p7",
 			"title": "Challenge: Computer Vision and Artificial Intelligence",
 			"organization": "Accenture",
-			"description": "Built an intelligent parking system that authorizes vehicle entrance by matching employees’ faces using face recognition library with OpenCV, as well, recognizing a car’s plate with YOLO object detection, once a car was detected we used AWS rekognition service to get the plate’s text and AWS s3 to store the data. This information was retrieved with Next.js to serve a Node.js server and later, on render an interface using React.",
+			"description": "1st place in Accenture Challenge. Built an intelligent parking system that authorizes vehicle entrance by matching employees’ faces using face recognition library with OpenCV, as well, recognizing a car’s plate with YOLO object detection, once a car was detected we used AWS rekognition service to get the plate’s text and AWS s3 to store the data. This information was retrieved with Next.js to serve a Node.js server and later, on render an interface using React.",
 			"period": "Fall 2019",
-			"link": "",
+			"link": "https://github.com/carolinagalvan/accenture_challenge",
 			"technologies": ["OpenCV", "Amazon Web Services", "Next.js", "Node.js", "React", "Python", "JavaScript"]
 		},
 		{
@@ -206,7 +242,7 @@
 			"organization": "JDA Software",
 			"description": "2nd place in HackMty 2019. Using a random forest model, we predicted the sales for the next three months in a brewery. The resulting output was served via Flask to our Vue.js UI.",
 			"period": "Fall 2019",
-			"link": "",
+			"link": "https://github.com/LewisErick/brewery-sales-prediction",
 			"technologies": ["Flask", "Vue.js", "SciPy", "Python", "JavaScript"]
 		},
 		{
@@ -228,16 +264,16 @@
 			"organization": "Confluent, Inc.",
 			"description": "1er lugar en Hack Off v3. Creación de un sistema que recupera tweets en tiempo real usando Kafka, analiza su sentimiento y modela el tópico, para publicar los resultados en Amazon QuickSight.",
 			"period": "Otoño 2020",
-			"link": "",
+			"link": "https://github.com/DRAE-MLP/PreprocessTweet",
 			"technologies": ["Kafka", "ksqlDB", "Docker", "Amazon Web Services", "Python", "Twitter's StandardSearch API"]
 		},
 		{
 			"key": "p07",
 			"title": "Reto: Visión Computarizada e Inteligencia Artificial",
 			"organization": "Accenture",
-			"description": "Construcción de un sistema de estacionamiento inteligente. Consistió en autorizar la entrada del vehículo al reconocer la cara del empleado, esto al utilizar la librería de reconocimiento de cara de OpenCV,  e identificar el carro del empleado y su placa utilizando YOLO para la detección de objetos. Una vez que se detectaba la placa se aplicó el servicio de rekognition de AWS para obtener el texto, y luego guardarlo con AWS s3. Se creó una interfaz web con React que utilizaba Next.js para obtener los datos de AWS y servirlos a Node.js.",
+			"description": "1er lugar en Reto Accenture. Construcción de un sistema de estacionamiento inteligente. Consistió en autorizar la entrada del vehículo al reconocer la cara del empleado, esto al utilizar la librería de reconocimiento de cara de OpenCV,  e identificar el carro del empleado y su placa utilizando YOLO para la detección de objetos. Una vez que se detectaba la placa se aplicó el servicio de rekognition de AWS para obtener el texto, y luego guardarlo con AWS s3. Se creó una interfaz web con React que utilizaba Next.js para obtener los datos de AWS y servirlos a Node.js.",
 			"period": "Otoño 2019",
-			"link": "",
+			"link": "https://github.com/carolinagalvan/accenture_challenge",
 			"technologies": ["OpenCV", "Amazon Web Services", "Next.js", "Node.js", "React", "Python", "JavaScript"]
 		},
 		{
@@ -246,7 +282,7 @@
 			"organization": "JDA Software",
 			"description": "2do lugar en HackMty. Utilizando un modelo de tipo Random Forest, el equipo predijo las ventas en tres meses de una cervecería. El resultado fue servido a través de Flask a una interfaz de usuario creada con Vue.js.",
 			"period": "Otoño 2019",
-			"link": "",
+			"link": "https://github.com/LewisErick/brewery-sales-prediction",
 			"technologies": ["Flask", "Vue.js", "SciPy", "Python", "JavaScript"]
 		},
 		{
@@ -260,10 +296,28 @@
 		}]
 	},
 	{
-		"section": "Volunteer Experience",
+		"section": "Teaching Experience",
 		"lang": "EN",
 		"items": [{
-			"key": "p11",
+			"key":"p11",
+			"title":"Teaching Assistant",
+			"organization":"Tec de Monterrey",
+			"description": "Assisted and reviewed undergrad students' projects in Web Development and Cognitive Science Courses. Developed academic materials for Artificial Intelligence Bootcamp using Tensorflow.",
+			"period":"Fall 2021",
+			"link":"",
+			"technologies":["Node.js", "Express", "Ejs", "Tensorflow"]
+		},
+		{
+			"key":"p12",
+			"title":"Teaching Assistant",
+			"organization":"Tec de Monterrey",
+			"description": "Supported professor lessons and documented classroom progress at undergraduate Ethics Course. Assisted editorial processes in the institution.",
+			"period":"Spring 2021",
+			"link":"",
+			"technologies":[]
+		},
+		{
+			"key": "p13",
 			"title": "Teaching Assistant",
 			"organization": "Patrones Hermosos",
 			"description": "Introduced computer science and algorithmic thinking to girls in middle school and high school and created coding exercises during a two-week workshop provided by MIT and Tec de Monterrey.",
@@ -273,16 +327,163 @@
 		}]
 	},
 	{
-		"section": "Volunteer Experience",
+		"section": "Teaching Experience",
 		"lang": "ES",
-		"items": [{
-			"key": "p011",
+		"items": [
+		{
+			"key":"p011",
+			"title":"Profesor Asistente",
+			"organization":"Tec de Monterrey",
+			"description": "Apoyé y revisé los proyectos de estudiantes a nivel profesional en los cursos de Desarrollo Web y Ciencia Cognitiva. Desarrollé materiales académicos con Tensorfow para un Bootcamp en Inteligencia Artificial.",
+			"period":"Otoño 2021",
+			"link":"",
+			"technologies":["Node.js", "Express", "Ejs", "Tensorflow"]
+		},
+		{
+			"key":"p012",
+			"title":"Profesor Asistente",
+			"organization":"Tec de Monterrey",
+			"description": "Apoyé las lecturas del profesor líder y ayudé a documentar el progreso de los estudiantes a nivel profesional en el curso de ética. Asistí en procesos editoriales dentro de la institución.",
+			"period":"Primavera 2021",
+			"link":"",
+			"technologies":[]
+		},
+		{
+			"key": "p013",
 			"title": "Profesor Asistente",
 			"organization": "Patrones Hermosos",
 			"description": "Creé ejercicios de programación en un taller de dos semanas con el objetivo de introducir las ciencias de la computación y el pensamiento algorítmico a alumnas de preparatoria y secundaria, con el fin de reducir la brecha de género en el campo. Este taller fue organizado por el Tec de Monterrey y el Instituto Tecnológico de Massachussets.",
 			"period": "Verano 2017",
 			"link": "https://www.patroneshermososmexico.org/",
 			"technologies": ["HTML", "CSS", "JavaScript"]
+		}]
+	},
+	{
+		"section":"Publications",
+		"lang":"EN",
+		"items": [
+		{
+			"key":"p33",
+			"title":"Analyzing Fan Avidity for Soccer Prediction",
+			"organization": "RITEC",
+			"description": "This thesis aims to strengthen a machine learning model that applies polarity and sentiment analysis on tweets, as well as discover factors thought to be relevant to a soccer match. The final goal is to achieve a flexible mechanism that automatizes the process of gathering data before a match, with the main objective of quantifying credit on fans' sentiment along with historical factors, while evaluating soccer prediction.",
+			"period":"Spring 2022",
+			"link":"https://repositorio.tec.mx/handle/11285/650695",
+			"technologies":["Master's thesis"]
+		},
+		{
+			"key":"p14",
+			"title":"Predicting Soccer Results Through Sentiment Analysis: A Graph Theory Approach",
+			"organization": "Springer's Lecture Notes in Computer Science (In press)",
+			"description": "Proposes a Machine Learning model which automatizes the process of gathering the corpus of tweets before a match, and classifies its sentiment to find the probability of a winning game by evaluating the network centrality.",
+			"period":"Spring 2021",
+			"link":"https://link.springer.com/chapter/10.1007%2F978-3-030-77980-1_32",
+			"technologies":["Graph Theory","Machine Learning","Sentiment Analysis","Social Networks","Sports Analytics"]
+		},
+		{
+			"key":"p15",
+			"title":"The Winning Mining Formula For Football Competitions",
+			"organization":"Springer's Transactions on Computational Science and Computational Intelligence (Accepted)",
+			"description":"Proposes an Ensemble Machine Learning Model that predicts soccer results by understanding teams' performance based on up-to-date statistics and rankings, including a cost-benefit analysis based on bookies' odds.",
+			"period":"Spring 2021",
+			"link":"https://www.researchgate.net/publication/365964661_The_Winning_Mining_Formula_for_Football_Competitions",
+			"technologies":["Data Mining","Gambling Bias","Machine Learning","Soccer Forecasting","Sports Analytics"]
+		},
+		{
+			"key":"p16",
+			"title":"Social Networks As Room For Improvement In Football",
+			"organization":"Summa Humanitatis Pontifical Catholic University of Peru (In press)",
+			"description":"Reviews the literature on the way soccer institutions engage fans through social media. And shows how this technology applies artificial intelligence by analyzing sentiment in these massive conversations.",
+			"period":"Spring 2021",
+			"link":"https://revistas.pucp.edu.pe/index.php/summa_humanitatis/article/view/24040",
+			"technologies":["Artificial Intelligence","Fan Avidity","Sentiment Analysis","Social Networks","Sports Marketing"]
+		}]
+	},
+	{
+		"section":"Publications",
+		"lang":"ES",
+		"items":[
+		{
+			"key":"p033",
+			"title":"Analizando Anhelos de Fans para Predicción de Soccer",
+			"organization": "RITEC",
+			"description": "Esta tesis desarrolla un modelo de aprendizaje automático que aplica la polaridad y análisis de sentimiento en tweets, así como indicadores de rendimiento en un partido de fútbol. De igual manera, crea un mecanismo que automatiza la obtención de datos previo al partido, con el fin de dar crédito a los sentimientos de los fans y a los factores históricos en la predicción de fútbol.",
+			"period":"Primavera 2022",
+			"link":"https://repositorio.tec.mx/handle/11285/650695",
+			"technologies":["Tesis de maestría"]
+		},
+		{
+			"key":"p014",
+			"title":"Prediciendo Resultados de Fútbol a través del Análisis de Sentimientos: Un Enfoque de Teoría de Grafos",
+			"organization":"Springer's Lecture Notes in Computer Science (Publicado)",
+			"description":"Propone un Modelo de Aprendizaje Automático que automatice el proceso de abstraer tuits antes de un partido, y clasifique su sentimiento para así encontrar la probabilidad e un partido ganado por medio de la evaluación de la centralidad de la red.",
+			"period":"Primavera 2021",
+			"link":"https://link.springer.com/chapter/10.1007%2F978-3-030-77980-1_32",
+			"technologies":["Teoría de Grafos","Aprendizaje Automático","Análisis de Sentimientos","Redes Sociales","Analítica de Deportes"]
+		},
+		{
+			"key":"p015",
+			"title":"La Fórmula Ganadora para las Competencias de Fútbol",
+			"organization":"Springer's Transactions on Computational Science and Computational Intelligence (Aceptado)",
+			"description":"Propone un Modelo de Aprendizaje Automático de tipo conjunto que predice resultados de fútbol al comprender el rendimiento de equipos deportivos basado en estadísticas hasta la fecha. Incluye también un análisis de costo-beneficio basado en momios.",
+			"period":"Primavera 2021",
+			"link":"https://www.researchgate.net/publication/365964661_The_Winning_Mining_Formula_for_Football_Competitions",
+			"technologies":["Minería de Datos","Sesgos en Apuestas","Aprendizaje Automático","Predicción de Fútbol","Analítica de Deportes"]
+		},
+		{
+			"key":"p016",
+			"title":"Las Redes Sociales un Área de Oportunidad en el Fútbol",
+			"organization":"Summa Humanitatis Pontificia Universidad Católica del Perú (Publicado)",
+			"description":"Revisa la literatura acerca de instituciones de fútbol y su acercamiento a los fanáticos por medio de las redes sociales. De igual manera, muestra cómo la tecnología aplica inteligencia artificial para analizar el sentimiento en estas conversaciones masivas.",
+			"period":"Primavera 2021",
+			"link":"https://revistas.pucp.edu.pe/index.php/summa_humanitatis/article/view/24040",
+			"technologies":["Inteligencia Artificial","Fan Avidity","Análisis de Sentimientos","Redes Sociales","Marketing Deportivo"]
+		}]
+	},
+	{
+		"section":"Conferences",
+		"lang":"EN",
+		"items":[
+		{
+			"key":"p17",
+			"title":"International Conference On Data Science (ICDATA'21)",
+			"organization":"Las Vegas, USA",
+			"description":"Main track as part of the World Congress in Computer Science, Computer Engineering, and Applied Computing (CSCE’21).",
+			"period":"July 2021",
+			"link":"https://icdatascience.org/",
+			"technologies":[]
+		},
+		{
+			"key":"p18",
+			"title":"International Conference on Computational Science (ICCS'21)",
+			"organization":"Krakow, Poland",
+			"description":"Workshop on stochastic methods and algorithms for solving problems with uncertainties.",
+			"period":"June 2021",
+			"link":"https://www.hartree.stfc.ac.uk/Pages/Solving-problems-with-uncertainties.aspx",
+			"technologies":[]
+		}]
+	},
+	{
+		"section":"Conferences",
+		"lang":"ES",
+		"items":[
+		{
+			"key":"p017",
+			"title":"Conferencia Internacional en Ciencia de Datos (ICDATA'21)",
+			"organization":"Las Vegas, EUA",
+			"description":"Categoría principal en el Congreso Mundial en Ciencias Computacionales, Ingeniería Computacional y Cómputo Aplicado (CSCE'21).",
+			"period":"Julio 2021",
+			"link":"https://icdatascience.org/",
+			"technologies":[]
+		},
+		{
+			"key":"p018",
+			"title":"Conferencia Internacional en Ciencias Computacionales (ICCS'21)",
+			"organization":"Cracovia, Polonia",
+			"description":"Taller de métodos estocásticos y algoritmos para resolver problemas con incertidumbre.",
+			"period":"Junio 2021",
+			"link":"https://www.hartree.stfc.ac.uk/Pages/Solving-problems-with-uncertainties.aspx",
+			"technologies":[]
 		}]
 	}
 ]
